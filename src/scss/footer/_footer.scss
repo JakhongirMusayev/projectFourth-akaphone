@@ -1,0 +1,124 @@
+.footer-wrapper {
+	font-family: "Montserrat Regular";
+	color: #fff;
+	background-color: #062b40;
+
+	.myRow {
+		padding: 35px 0;
+		.footer-logo {
+			background-image: url(../../images/footer_phone_rectangle.png);
+			background-repeat: no-repeat;
+			background-position: center 7%;
+			min-width: 270px;
+			img:nth-child(1) {
+				width: 42px;
+				height: 46px;
+				margin: 11% auto 10%;
+			}
+			img:nth-child(2) {
+				width: 100px;
+				height: 17px;
+				margin: 5% auto;
+			}
+			p {
+				font-family: "Montserrat Regular";
+				font-size: 14px;
+				line-height: 17px;
+			}
+		}
+		.about-group {
+			font-family: "Montserrat Regular";
+			font-size: 14px;
+			line-height: 14px;
+			min-width: 250px;
+			.about {
+				min-width: 150px;
+				ul {
+					list-style: none;
+					li {
+						margin-bottom: 15%;
+						a {
+							color: #fff;
+						}
+					}
+				}
+			}
+			.products {
+				ul {
+					list-style: none;
+					li {
+						margin-bottom: 25%;
+						a {
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		.map {
+			background-image: url(../../images/footer-map-bg.png);
+			min-width: 370px;
+			height: 191px;
+			p {
+				margin-top: 80px;
+			}
+		}
+		.contacts-group {
+			.contacts {
+				a {
+					font-family: "Montserrat Bold";
+					font-size: 15px;
+					line-height: 15px;
+					color: #ffffff;
+				}
+				p {
+					font-family: "Montserrat Regular";
+					font-size: 12px;
+					line-height: 12px;
+					color: #dfdfdf;
+				}
+			}
+			.sotial-media {
+				.facebook {
+					width: 40px;
+					height: 40px;
+					background-image: url(../../images/footer-f-bg.png);
+					position: relative;
+					img {
+						width: 22px;
+						height: 22px;
+						position: absolute;
+						top: 9px;
+						left: 10px;
+					}
+				}
+				.telegramm {
+					width: 40px;
+					height: 40px;
+					background-image: url(../../images/footer-t-bg.png);
+					position: relative;
+					img {
+						width: 22px;
+						height: 22px;
+						position: absolute;
+						top: 9px;
+						left: 10px;
+					}
+				}
+				.instagramm {
+					width: 40px;
+					height: 40px;
+					background-image: url(../../images/footer-i-bg.png);
+					position: relative;
+					img {
+						width: 22px;
+						height: 22px;
+						position: absolute;
+						top: 9px;
+						left: 10px;
+					}
+				}
+			}
+		}
+	}
+}

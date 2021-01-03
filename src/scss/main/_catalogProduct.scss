@@ -1,0 +1,49 @@
+.catalogProduct-wrapper {
+	font-family: "Montserrat Bold";
+	h1 {
+		a {
+			font-size: 26px;
+			line-height: 32px;
+			color: #333333;
+			padding: 5% 0;
+		}
+	}
+	// .myRow {
+	// margin-bottom: 30px;
+	.myCardDesk1,
+	.myCardDesk2 {
+		margin: 0 10px;
+		.myCard {
+			// max-width: 20.1%; //24.1%
+			// max-height: 470px;
+			background-image: url(../../images/prod-item-bg.png);
+			// margin: 0 5px;
+			transition: box-shadow .3s ease;
+			&:hover {
+				box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.2);
+			}
+
+			.myCardBody1 {
+				border: none;
+				font-size: 18px;
+				line-height: 32px;
+				color: #333333;
+			}
+			.myCardBody2 {
+				font-size: 18px;
+				line-height: 22px;
+				color: rgba(176, 176, 176, 0.99);
+				.myCost {
+					font-size: 21px;
+					line-height: 25px;
+					color: #eb4d4d;
+					small {
+						text-decoration-line: line-through;
+						color: rgba(196, 196, 196, 0.5);
+					}
+				}
+			}
+		}
+	}
+	// }
+}

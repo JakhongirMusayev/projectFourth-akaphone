@@ -1,0 +1,63 @@
+//@=================1199===================
+@media screen and (max-width: 1199px) {
+	.header-wrapper {
+		header {
+			nav {
+				.logo {
+					display: none
+				}
+				.logo-text {
+					width: 160px;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+};
+//@=================991===================
+@media screen and (max-width: 991px) {
+	.header-wrapper {
+		header {
+			nav {
+				.logo {
+					display: block
+				}
+				.logo-text {
+					width: auto;
+					margin-right: 0;
+					text-align: center;
+				}
+			}
+		}
+	}
+};
+//@=================425===================
+@media screen and (max-width: 425px) {
+	.header-wrapper {
+		header {
+			nav {
+				.logo-text {
+					p {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+};
+//@=================320===================
+@media screen and (max-width: 320px) {
+	.header-wrapper {
+		header {
+			nav {
+				.logo-text {
+					a {
+						img {
+							margin-left: -21%;
+						}
+					}
+				}
+			}
+		}
+	}
+};

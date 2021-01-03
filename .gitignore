@@ -1,0 +1,7 @@
+/node_modules
+/build
+/src/bootstrap
+*.log
+*.vscode
+*.json
+!package.json

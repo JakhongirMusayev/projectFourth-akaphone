@@ -1,0 +1,101 @@
+// @=====================991=====================
+@media screen and (max-width: 991px) {
+	.banner-wrapper {
+		.banner {
+			.banner-content {
+				margin-bottom: 150px;
+				text-align: center;
+			}
+			.banner-slider {
+				.slider-bg {
+					background-size: cover;
+					margin-left: -21%;
+					width: 143%;
+					.slider-clocks {
+						width: auto;
+						padding: 0;
+						margin-left: 0;
+						img {
+							width: 70%;
+							margin-top: -7%;
+							margin-left: 14%;
+						}
+					}
+					.slider-text {
+						justify-content: center;
+					}
+					.slider-buttons__in {
+						display: block;
+						margin-right: 15%;
+					}
+				}
+			}
+		}
+	}
+	.slider-buttons__out {
+		display: none;
+	}
+};
+// @=====================575=====================
+@media screen and (max-width: 575px) {
+	.banner-wrapper {
+		.banner {
+			.banner-slider {
+				.slider-bg {
+					.slider-clocks {
+						img {
+							width: 65%;
+							margin-left: 16.5%;
+						}
+					}
+					.slider-buttons__in {
+						margin-right: 25%;
+					}
+				}
+			}
+		}
+	}
+};
+// @=====================425=====================
+@media screen and (max-width: 425px) {
+	.banner-wrapper {
+		.banner {
+			.banner-content {
+				h1 {
+					font-size: 1.5rem;
+				}
+			}
+			.banner-slider {
+				.slider-bg {
+					.slider-text {
+						a:nth-child(1) {
+							font-size: 1.5rem;
+							margin-left: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+};
+// @=====================320=====================
+@media screen and (max-width: 320px) {
+	.banner-wrapper {
+		.banner {
+			.banner-content {
+				h1 {
+					font-size: 1.3rem;
+				}
+			}
+			.banner-slider {
+				.slider-bg {
+					.slider-text {
+						a:nth-child(1) {
+							font-size: 1.3rem;
+						}
+					}
+				}
+			}
+		}
+	}
+};

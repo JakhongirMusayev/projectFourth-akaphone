@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	body {
+		font-family: "Montserrat Regular";
+		font-size: 14px;
+		
+	}
+}
+.wrapper {
+	overflow: hidden;
+	transition: all .8s;
+
+	a {
+		display: block;
+		text-decoration: none;
+	}
+	img {
+		display: run-in;
+		width: 100%;
+		height: auto;
+	}
+
+	@import "header/header.scss";
+	@import "banner/banner.scss";
+	@import "slider/slider.scss";
+	@import "main/specialOffers.scss";
+	@import "main/catalogProduct.scss";
+	@import "footer/footer.scss";
+	// media-queries
+	@import "header/header-media";
+	@import "banner/banner-media";
+	// @import "slider/slider-media";
+	@import "main/specialOffers-media";
+	@import "main/catalogProduct-media";
+	@import "footer/footer-media";
+}

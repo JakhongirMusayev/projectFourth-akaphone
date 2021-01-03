@@ -1,0 +1,519 @@
+.specialOffers-container {
+	width: 1170px;
+	margin: 0 auto;
+	font-family: "Montserrat Bold";
+
+	h1 {
+		font-size: 26px;
+		line-height: 32px;
+		color: #333333;
+		margin: 48px 0 50px;
+	}
+	.specialOffer-grid {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+
+		// * LENOVO *
+		.lenovo {
+			width: 570px;
+			height: 220px;
+			background-image: url(../../images/lenovo-bg.png);
+			grid-column-start: 1;
+			grid-column-end: span 6;
+			display: grid;
+			grid-template-columns: 40% 1fr;
+			cursor: pointer;
+			&:hover {
+				border: 1px solid #edecec;
+				box-sizing: border-box;
+				box-shadow: inset 0px 5px 25px rgba(0, 0, 0, 0.2);
+			}
+
+			.eichLenovo {
+				width: 297px;
+				height: 32px;
+				font-size: 26px;
+				line-height: 32px;
+				color: #ffffff;
+				grid-column-start: 2;
+				grid-row-start: 1;
+				justify-self: end;
+				margin-top: 20px;
+				margin-right: 20px;
+			}
+			.product-price {
+				font-size: 20px;
+				line-height: 24px;
+				color: #ffffff;
+				grid-column-start: 2;
+				grid-row-start: 2;
+				white-space: pre-wrap;
+				justify-self: end;
+				span {
+					font-size: 16px;
+					line-height: 20px;
+					text-decoration-line: line-through;
+					color: rgba(255, 255, 255, 0.5);
+					margin-left: 20px;
+					margin-right: 20px;
+				}
+			}
+			button {
+				width: 160px;
+				height: 50px;
+				border: 1px solid #ffffff;
+				box-sizing: border-box;
+				background: linear-gradient(to right, #1992c7, #0c86ba);
+				font-size: 20px;
+				line-height: 24px;
+				text-transform: uppercase;
+				color: #333333;
+				grid-column-start: 2;
+				grid-row-start: 3;
+				justify-self: end;
+				align-self: end;
+				margin-right: 20px;
+				margin-bottom: 20px;
+				&:hover {
+					background: #ffffff;
+					border: 1px solid #ffffff;
+					box-sizing: border-box;
+					box-shadow: 0px 0px 25px #ffffff;
+					cursor: pointer;
+				}
+			}
+
+			img {
+				width: 223px;
+				height: 194px;
+				grid-column-start: 1;
+				grid-column-end: span 1;
+				grid-row-start: 1;
+				grid-row-end: span 3;
+				align-self: center;
+				margin-left: 13px;
+			}
+		}
+		// * KRESLO *
+		.kreslo {
+			width: 270px;
+			height: 470px;
+			background: url(../../images/kreslo-bg.png), linear-gradient(180deg, #5ac651 0%, #ecdb41 100%);
+			grid-column-start: 7;
+			grid-column-end: span 9;
+			grid-row-start: 1;
+			grid-row-end: span 2;
+			margin-left: 2.5%;
+			display: grid;
+			grid-template-columns: 1fr;
+			cursor: pointer;
+			&:hover {
+				border: 1px solid #edecec;
+				box-sizing: border-box;
+				box-shadow: inset 0px 5px 25px rgba(0, 0, 0, 0.2);
+			}
+
+			.eichKreslo-1,
+			.eichKreslo-2 {
+				font-size: 26px;
+				line-height: 32px;
+				text-align: right;
+				color: #ffffff;
+				margin-right: 20px;
+			}
+			.eichKreslo-1 {
+				grid-row-start: 1;
+				align-self: end;
+				margin-top: 20px;
+			}
+			.eichKreslo-2 {
+				grid-row-start: 2;
+				margin-bottom: 10px;
+			}
+			.product-price {
+				font-size: 20px;
+				line-height: 24px;
+				color: #ffffff;
+				grid-row-start: 3;
+				justify-self: end;
+				margin-bottom: 22px;
+				span {
+					font-size: 16px;
+					line-height: 20px;
+					text-decoration-line: line-through;
+					color: rgba(255, 255, 255, 0.5);
+					margin-right: 20px;
+					margin-left: 20px;
+				}
+			}
+			img {
+				width: 180px;
+				height: 248px;
+				grid-row-start: 4;
+				margin-bottom: 11px;
+			}
+			button {
+				width: 160px;
+				height: 50px;
+				border: 1px solid #ffffff;
+				box-sizing: border-box;
+				background: linear-gradient(to bottom, #d8d843, #e9db40);
+				font-size: 20px;
+				line-height: 24px;
+				text-transform: uppercase;
+				color: #333333;
+				grid-row-start: 5;
+				justify-self: end;
+				margin-right: 20px;
+				margin-bottom: 15px;
+				&:hover {
+					background: #ffffff;
+					border: 1px solid #ffffff;
+					box-sizing: border-box;
+					box-shadow: 0px 0px 25px #ffffff;
+					cursor: pointer;
+				}
+			}
+		}
+		// * GALAXY *
+		.galaxy {
+			width: 270px;
+			height: 220px;
+			background-image: url(../../images/galaxy-bg.png);
+			grid-column-start: 10;
+			grid-column-end: span 12;
+			grid-row-start: 1;
+			grid-row-end: 2;
+			justify-self: end;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			// grid-template-rows: repeat(3, auto);
+			cursor: pointer;
+			&:hover {
+				border: 1px solid #edecec;
+				box-sizing: border-box;
+				box-shadow: inset 0px 5px 25px rgba(0, 0, 0, 0.2);
+			}
+
+			.eichGalaxy-1,
+			.eichGalaxy-2 {
+				font-size: 22px;
+				line-height: 27px;
+				color: #ffffff;
+				margin-left: 15px;
+			}
+			.eichGalaxy-1 {
+				grid-column-start: 1;
+				grid-row-start: 1;
+				margin-top: 15px;
+			}
+			.eichGalaxy-2 {
+				grid-column-start: 1;
+				grid-row-start: 1;
+				margin-top: 41px;
+			}
+			.product-price__new {
+				font-size: 20px;
+				line-height: 24px;
+				color: #ffffff;
+				grid-column-start: 1;
+				grid-row-start: 2;
+				margin-left: 15px;
+				align-self: end;
+			}
+			.product-price__old {
+				font-size: 16px;
+				line-height: 20px;
+				text-decoration-line: line-through;
+				color: rgba(255, 255, 255, 0.5);
+				grid-column-start: 1;
+				grid-row-start: 3;
+				margin-left: 15px;
+			}
+			button {
+				width: 160px;
+				height: 50px;
+				border: 1px solid #ffffff;
+				box-sizing: border-box;
+				background: linear-gradient(90deg, #544d9c 0%, #8665cf 100%);
+				font-size: 20px;
+				line-height: 24px;
+				text-transform: uppercase;
+				color: #333333;
+				grid-column-start: 1;
+				grid-column-end: span 2;
+				grid-row-start: 4;
+				align-self: end;
+				justify-self: end;
+				margin-right: 15px;
+				margin-bottom: 15px;
+				&:hover {
+					background: #ffffff;
+					border: 1px solid #ffffff;
+					box-sizing: border-box;
+					box-shadow: 0px 0px 25px #ffffff;
+					cursor: pointer;
+				}
+			}
+			img {
+				width: 116px;
+				height: 155px;
+				grid-column-start: 2;
+				grid-row-start: 1;
+				grid-row-end: span 4;
+				margin-top: -26px;
+				margin-right: 30px;
+			}
+		}
+		// * HYPERX *
+		.hyperx {
+			width: 270px;
+			height: 220px;
+			background-image: url(../../images/hyper-bg.png);
+			grid-column-start: 1;
+			grid-column-end: span 3;
+			grid-row-start: 2;
+			grid-row-end: 3;
+			align-self: end;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			position: relative;
+			cursor: pointer;
+			&:hover {
+				border: 1px solid #edecec;
+				box-sizing: border-box;
+				box-shadow: inset 0px 5px 25px rgba(0, 0, 0, 0.2);
+			}
+
+			.eichHyperx {
+				font-size: 22px;
+				line-height: 27px;
+				color: #ffffff;
+				grid-row-start: 1;
+				grid-row-start: 1;
+				margin-top: 15px;
+				margin-left: 15px;
+			}
+
+			.product-price {
+				font-size: 20px;
+				line-height: 24px;
+				color: #ffffff;
+				grid-column-start: 1;
+				grid-column-end: span 2;
+				grid-row-start: 2;
+				margin-left: 15px;
+				span {
+					font-size: 16px;
+					line-height: 20px;
+					text-decoration-line: line-through;
+					color: rgba(255, 255, 255, 0.5);
+					margin-left: 20px;
+				}
+			}
+			button {
+				width: 160px;
+				height: 50px;
+				border: 1px solid #ffffff;
+				box-sizing: border-box;
+				background: linear-gradient(to right, #d54f35, #c12623);
+				font-size: 20px;
+				line-height: 24px;
+				text-transform: uppercase;
+				color: #333333;
+				grid-column-start: 1;
+				grid-column-end: span 2;
+				grid-row-start: 3;
+				align-self: end;
+				justify-self: end;
+				margin-right: 15px;
+				margin-bottom: 15px;
+				&:hover {
+					background: #ffffff;
+					border: 1px solid #ffffff;
+					box-sizing: border-box;
+					box-shadow: 0px 0px 25px #ffffff;
+					cursor: pointer;
+				}
+			}
+			img {
+				width: 124px;
+				height: 156px;
+				grid-column-start: 2;
+				grid-row-start: 1;
+				grid-row-end: span 2;
+				position: absolute;
+				top: -19px;
+				right: -11px;
+			}
+		}
+		// * XIAOMI *
+		.xiaomi {
+			width: 270px;
+			height: 220px;
+			background-image: url(../../images/xiaomi-bg.png);
+			grid-column-start: 4;
+			grid-column-end: span 6;
+			grid-row-start: 2;
+			grid-row-end: 3;
+			align-self: end;
+			margin-left: 1.5%;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			// grid-template-rows: repeat(4, 1fr);
+			position: relative;
+			cursor: pointer;
+			&:hover {
+				border: 1px solid #edecec;
+				box-sizing: border-box;
+				box-shadow: inset 0px 5px 25px rgba(0, 0, 0, 0.2);
+			}
+
+			.eichXiaomi {
+				font-size: 22px;
+				line-height: 27px;
+				color: #ffffff;
+				grid-column-start: 1;
+				grid-row-start: 1;
+				margin-top: 15px;
+				margin-left: 15px;
+			}
+			.product-price {
+				font-size: 20px;
+				line-height: 24px;
+				color: #ffffff;
+				grid-column-start: 1;
+				grid-column-end: span 2;
+				grid-row-start: 2;
+				align-self: center;
+				margin-left: 15px;
+				span {
+					font-size: 16px;
+					line-height: 20px;
+					text-decoration-line: line-through;
+					color: rgba(255, 255, 255, 0.5);
+					margin-left: 20px;
+				}
+			}
+			button {
+				width: 160px;
+				height: 50px;
+				border: 1px solid #ffffff;
+				box-sizing: border-box;
+				background: linear-gradient(to right, #2d8b83, #18a097);
+				font-size: 20px;
+				line-height: 24px;
+				text-transform: uppercase;
+				color: #333333;
+				grid-column-start: 1;
+				grid-column-end: span 2;
+				grid-row-start: 3;
+				align-self: end;
+				justify-self: end;
+				margin-right: 15px;
+				margin-bottom: 15px;
+				&:hover {
+					background: #ffffff;
+					border: 1px solid #ffffff;
+					box-sizing: border-box;
+					box-shadow: 0px 0px 25px #ffffff;
+					cursor: pointer;
+				}
+			}
+			img {
+				width: 142px;
+				height: 142px;
+				grid-column-start: 2;
+				grid-row-start: 1;
+				grid-row-end: 3;
+				position: absolute;
+				top: -23px;
+				right: -7px;
+			}
+		}
+		// * HOLITIC *
+		.holitic {
+			width: 270px;
+			height: 220px;
+			background-image: url(../../images/holitic-bg.png);
+			grid-column-start: 10;
+			grid-column-end: span 12;
+			grid-row-start: 2;
+			grid-row-end: 3;
+			align-self: end;
+			justify-self: end;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			// grid-template-rows: repeat(5, 1fr);
+			position: relative;
+			cursor: pointer;
+			&:hover {
+				border: 1px solid #edecec;
+				box-sizing: border-box;
+				box-shadow: inset 0px 5px 25px rgba(0, 0, 0, 0.2);
+			}
+
+			.eichHolitic {
+				font-size: 22px;
+				line-height: 27px;
+				color: #ffffff;
+				margin-top: 15px;
+				margin-left: 15px;
+			}
+			.product-price__new {
+				font-size: 20px;
+				line-height: 24px;
+				color: #ffffff;
+				grid-column-start: 1;
+				grid-row-start: 2;
+				align-self: end;
+				margin-left: 15px;
+			}
+			.product-price__old {
+				font-size: 16px;
+				line-height: 20px;
+				text-decoration-line: line-through;
+				color: rgba(255, 255, 255, 0.5);
+				grid-column-start: 1;
+				grid-row-start: 3;
+				margin-left: 15px;
+			}
+			button {
+				width: 160px;
+				height: 50px;
+				border: 1px solid #ffffff;
+				box-sizing: border-box;
+				background: linear-gradient(to right, #575e82, #1496a2);
+				font-size: 20px;
+				line-height: 24px;
+				text-transform: uppercase;
+				color: #333333;
+				grid-column-start: 1;
+				grid-column-end: span 2;
+				grid-row-start: 4;
+				justify-self: end;
+				align-self: end;
+				margin-right: 15px;
+				margin-bottom: 15px;
+				&:hover {
+					background: #ffffff;
+					border: 1px solid #ffffff;
+					box-sizing: border-box;
+					box-shadow: 0px 0px 25px #ffffff;
+					cursor: pointer;
+				}
+			}
+			img {
+				width: 190px;
+				height: auto;
+				grid-column-start: 2;
+				grid-row-start: 1;
+				grid-row-end: span 3;
+				position: absolute;
+				top: -25px;
+				right: -25px;
+			}
+		}
+	}
+}
